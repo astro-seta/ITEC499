@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\source\\Asclepius Aide-Memoire\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|d:\\source\\asclepius aide-memoire\\asclepius.app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|solutionrelative:asclepius.app\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|d:\\source\\asclepius aide-memoire\\asclepius.app\\models\\authmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|solutionrelative:asclepius.app\\models\\authmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|d:\\source\\asclepius aide-memoire\\asclepius aide-memoire\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|solutionrelative:asclepius aide-memoire\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|d:\\source\\asclepius aide-memoire\\asclepius aide-memoire\\asclepius aide-memoire.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|solutionrelative:asclepius aide-memoire\\asclepius aide-memoire.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|d:\\source\\asclepius aide-memoire\\asclepius aide-memoire\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|solutionrelative:asclepius aide-memoire\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|d:\\source\\asclepius aide-memoire\\asclepius.app\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|solutionrelative:asclepius.app\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|d:\\source\\asclepius aide-memoire\\asclepius.app\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|solutionrelative:asclepius.app\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|d:\\source\\asclepius aide-memoire\\asclepius aide-memoire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|solutionrelative:asclepius aide-memoire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|d:\\source\\asclepius aide-memoire\\asclepius.app\\components\\pages\\authpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|solutionrelative:asclepius.app\\components\\pages\\authpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|d:\\source\\asclepius aide-memoire\\asclepius.app\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{179C0D92-E9AA-4832-B5A8-50FDD4878D6F}|Asclepius.app\\Asclepius.app.csproj|solutionrelative:asclepius.app\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|d:\\source\\asclepius aide-memoire\\asclepius aide-memoire\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|solutionrelative:asclepius aide-memoire\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|d:\\source\\asclepius aide-memoire\\asclepius aide-memoire\\migrations\\20261021060548_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|solutionrelative:asclepius aide-memoire\\migrations\\20261021060548_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|d:\\source\\asclepius aide-memoire\\asclepius aide-memoire\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|solutionrelative:asclepius aide-memoire\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|d:\\source\\asclepius aide-memoire\\asclepius aide-memoire\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C573C08C-97E5-48E3-6C53-FBEFEEDEF576}|Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj|solutionrelative:asclepius aide-memoire\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Asclepius.app\\MauiProgram.cs",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\MauiProgram.cs",
+              "RelativeToolTip": "Asclepius.app\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:38:27.561Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Asclepius.app\\Services\\AuthService.cs",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Services\\AuthService.cs",
+              "RelativeToolTip": "Asclepius.app\\Services\\AuthService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:31:34.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthModels.cs",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Models\\AuthModels.cs",
+              "RelativeDocumentMoniker": "Asclepius.app\\Models\\AuthModels.cs",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Models\\AuthModels.cs",
+              "RelativeToolTip": "Asclepius.app\\Models\\AuthModels.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T08:30:08.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Asclepius Aide-Memoire\\AppDbContext.cs",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\AppDbContext.cs",
+              "RelativeToolTip": "Asclepius Aide-Memoire\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T03:53:38.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Asclepius Aide-Memoire.http",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire.http",
+              "RelativeDocumentMoniker": "Asclepius Aide-Memoire\\Asclepius Aide-Memoire.http",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire.http",
+              "RelativeToolTip": "Asclepius Aide-Memoire\\Asclepius Aide-Memoire.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-21T09:03:53.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Asclepius.app\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Asclepius.app\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T09:41:09.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\AuthController.cs",
+              "RelativeDocumentMoniker": "Asclepius Aide-Memoire\\AuthController.cs",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\AuthController.cs",
+              "RelativeToolTip": "Asclepius Aide-Memoire\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T04:05:46.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthPage.razor",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Components\\Pages\\AuthPage.razor",
+              "RelativeDocumentMoniker": "Asclepius.app\\Components\\Pages\\AuthPage.razor",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Components\\Pages\\AuthPage.razor",
+              "RelativeToolTip": "Asclepius.app\\Components\\Pages\\AuthPage.razor",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAE4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T08:40:15.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\Program.cs",
+              "RelativeDocumentMoniker": "Asclepius Aide-Memoire\\Program.cs",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\Program.cs",
+              "RelativeToolTip": "Asclepius Aide-Memoire\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T04:09:44.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Asclepius.app\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius.app\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Asclepius.app\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T08:28:39.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20261021060548_InitialCreate.cs",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\Migrations\\20261021060548_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Asclepius Aide-Memoire\\Migrations\\20261021060548_InitialCreate.cs",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\Migrations\\20261021060548_InitialCreate.cs",
+              "RelativeToolTip": "Asclepius Aide-Memoire\\Migrations\\20261021060548_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T06:05:49.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Asclepius Aide-Memoire\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Asclepius Aide-Memoire\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-21T06:14:23.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\appsettings.json",
+              "RelativeDocumentMoniker": "Asclepius Aide-Memoire\\appsettings.json",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\appsettings.json",
+              "RelativeToolTip": "Asclepius Aide-Memoire\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-21T04:09:00.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "Asclepius Aide-Memoire\\DTOs\\AuthDtos.cs",
+              "ToolTip": "D:\\source\\Asclepius Aide-Memoire\\Asclepius Aide-Memoire\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "Asclepius Aide-Memoire\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T03:59:48.495Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

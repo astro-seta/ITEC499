@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Asclepius Aide-Memoire\\Asclepius Aide-Memoire.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Asclepius.app\\Asclepius.app.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+@Asclepius_Aide_Memoire_HostAddress = http://localhost:5244
+
+GET {{Asclepius_Aide_Memoire_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,213 @@
+﻿@page "/"
+@using Asclepius.App.Models
+@using Asclepius.App.Services
+@inject AuthService AuthService
+
+<div class="auth-container">
+    <div class="app-header">
+        <div class="app-logo">⚕️</div>
+        <h2>Asclepius</h2>
+        <p class="subtitle">Aide-Mémoire</p>
+    </div>
+
+    <!-- TABS -->
+    <div class="tab-switcher">
+        <button class="@(activeTab == "login" ? "active" : "")" @onclick='() => SetTab("login")'>Log In</button>
+        <button class="@(activeTab == "register" ? "active" : "")" @onclick='() => SetTab("register")'>Sign Up</button>
+        <button class="@(activeTab == "reset" ? "active" : "")" @onclick='() => SetTab("reset")'>Forgot</button>
+    </div>
+
+    <!-- ALERT BANNER -->
+    @if (!string.IsNullOrEmpty(feedbackMessage))
+    {
+        <div class="alert @(isSuccess ? "alert-success" : "alert-danger")">
+            @feedbackMessage
+        </div>
+    }
+
+    <!-- 1. LOGIN TAB -->
+    @if (activeTab == "login")
+    {
+        <EditForm Model="loginModel" OnValidSubmit="HandleLogin">
+            <DataAnnotationsValidator />
+
+            <div class="input-group">
+                <label>Username or Email</label>
+                <InputText @bind-Value="loginModel.UsernameOrEmail" class="form-input" placeholder="e.g. student or user@gmail.com" />
+                <ValidationMessage For="@(() => loginModel.UsernameOrEmail)" class="validation-msg" />
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <InputText @bind-Value="loginModel.Password" type="password" class="form-input" placeholder="••••••••" />
+                <ValidationMessage For="@(() => loginModel.Password)" class="validation-msg" />
+            </div>
+
+            <button type="submit" class="submit-btn primary" disabled="@isLoading">
+                @(isLoading ? "Authenticating..." : "Log In")
+            </button>
+        </EditForm>
+    }
+
+    <!-- 2. REGISTER TAB -->
+    @if (activeTab == "register")
+    {
+        <EditForm Model="registerModel" OnValidSubmit="HandleRegister">
+            <DataAnnotationsValidator />
+
+            <div class="input-group">
+                <label>Username</label>
+                <InputText @bind-Value="registerModel.Username" class="form-input" placeholder="Choose a username" />
+                <ValidationMessage For="@(() => registerModel.Username)" class="validation-msg" />
+            </div>
+
+            <div class="input-group">
+                <label>Email Address</label>
+                <InputText @bind-Value="registerModel.Email" class="form-input" placeholder="name@domain.com" />
+                <ValidationMessage For="@(() => registerModel.Email)" class="validation-msg" />
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <InputText @bind-Value="registerModel.Password" type="password" class="form-input" placeholder="Min. 6 characters" />
+                <ValidationMessage For="@(() => registerModel.Password)" class="validation-msg" />
+            </div>
+
+            <div class="input-group">
+                <label>I am a:</label>
+                <InputSelect @bind-Value="registerModel.Role" class="form-input">
+                    <option value="Patient">Patient</option>
+                    <option value="Caregiver">Caregiver / Doctor</option>
+                </InputSelect>
+            </div>
+
+            <button type="submit" class="submit-btn success" disabled="@isLoading">
+                @(isLoading ? "Creating Account..." : "Create Account")
+            </button>
+        </EditForm>
+    }
+
+    <!-- 3. RESET PASSWORD TAB -->
+    @if (activeTab == "reset")
+    {
+        <EditForm Model="resetModel" OnValidSubmit="HandleReset">
+            <DataAnnotationsValidator />
+
+            <div class="input-group">
+                <label>Registered Email</label>
+                <InputText @bind-Value="resetModel.Email" class="form-input" placeholder="name@domain.com" />
+            </div>
+
+            <div class="input-group">
+                <label>Reset Code</label>
+                <InputText @bind-Value="resetModel.Token" class="form-input" placeholder="Paste reset code" />
+            </div>
+
+            <div class="input-group">
+                <label>New Password</label>
+                <InputText @bind-Value="resetModel.NewPassword" type="password" class="form-input" placeholder="New secure password" />
+            </div>
+
+            <button type="submit" class="submit-btn warning" disabled="@isLoading">
+                @(isLoading ? "Updating..." : "Set New Password")
+            </button>
+        </EditForm>
+    }
+</div>
+
+<style>
+    .auth-container {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 24px;
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .app-header { text-align: center; margin-bottom: 24px; }
+    .app-logo { font-size: 40px; margin-bottom: 4px; }
+    .app-header h2 { margin: 0; color: #1e293b; font-weight: 700; }
+    .subtitle { margin: 0; color: #64748b; font-size: 14px; }
+    .tab-switcher { display: flex; background: #f1f5f9; padding: 4px; border-radius: 10px; margin-bottom: 20px; }
+    .tab-switcher button { flex: 1; padding: 10px; border: none; background: transparent; font-weight: 600; color: #64748b; border-radius: 8px; cursor: pointer; transition: 0.2s; }
+    .tab-switcher button.active { background: #ffffff; color: #0284c7; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+    .input-group { margin-bottom: 16px; display: flex; flex-direction: column; }
+    .input-group label { font-size: 13px; font-weight: 600; color: #334155; margin-bottom: 6px; }
+    .form-input { padding: 12px; border: 1.5px solid #cbd5e1; border-radius: 8px; font-size: 14px; outline: none; }
+    .form-input:focus { border-color: #0284c7; }
+    .submit-btn { width: 100%; padding: 12px; border: none; border-radius: 8px; font-size: 15px; font-weight: 600; color: white; cursor: pointer; margin-top: 8px; }
+    .submit-btn.primary { background: #0284c7; }
+    .submit-btn.success { background: #10b981; }
+    .submit-btn.warning { background: #f59e0b; }
+    .alert { padding: 12px; border-radius: 8px; font-size: 13px; margin-bottom: 16px; text-align: center; }
+    .alert-success { background: #dcfce7; color: #15803d; }
+    .alert-danger { background: #fee2e2; color: #b91c1c; }
+    .validation-msg { color: #dc2626; font-size: 12px; margin-top: 4px; }
+</style>
+
+@code {
+    private string activeTab = "login";
+    private string feedbackMessage = "";
+    private bool isSuccess = false;
+    private bool isLoading = false;
+
+    private LoginDto loginModel = new();
+    private RegisterDto registerModel = new();
+    private ResetPasswordDto resetModel = new();
+
+    private void SetTab(string tab)
+    {
+        activeTab = tab;
+        feedbackMessage = "";
+    }
+
+    private async Task HandleLogin()
+    {
+        isLoading = true;
+        feedbackMessage = "";
+        var res = await AuthService.LoginAsync(loginModel);
+        isLoading = false;
+
+        isSuccess = res.IsSuccess;
+        feedbackMessage = res.Message;
+
+        if (res.IsSuccess)
+        {
+            feedbackMessage = $"Welcome back, {res.Username}! (Role: {res.Role})";
+        }
+    }
+
+    private async Task HandleRegister()
+    {
+        isLoading = true;
+        feedbackMessage = "";
+        var res = await AuthService.RegisterAsync(registerModel);
+        isLoading = false;
+
+        isSuccess = res.IsSuccess;
+        feedbackMessage = res.Message;
+
+        if (res.IsSuccess)
+        {
+            activeTab = "login";
+            loginModel.UsernameOrEmail = registerModel.Username;
+        }
+    }
+
+    private async Task HandleReset()
+    {
+        isLoading = true;
+        feedbackMessage = "";
+        var res = await AuthService.ResetPasswordAsync(resetModel);
+        isLoading = false;
+
+        isSuccess = res.IsSuccess;
+        feedbackMessage = res.Message;
+
+        if (res.IsSuccess)
+        {
+            activeTab = "login";
+        }
+    }
+}
